@@ -1,0 +1,21 @@
+{
+  "name": "@oshun_hammer4597/eslint-config-org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
+  "peerDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.1.0",
+    "prettier-eslint": "^16.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}

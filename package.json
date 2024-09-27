@@ -1,5 +1,5 @@
 {
-  "name": "@oshun_hammer4597/eslint-config-org",
+  "name": "@oshuns_hammer4597/eslint-config-org",
   "version": "2.0.0",
   "main": "eslint.config.js",
   "scripts": {
